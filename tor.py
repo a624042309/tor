@@ -15,7 +15,9 @@ def get_soup(url):
         print soup
         return soup
     except Exception as e:
-        raise e
+        print e
+        
+
 url = 'https://api.ipify.org?format=json'
 
 def main():
